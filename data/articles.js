@@ -14,10 +14,10 @@ const SITE = {
       slug: "replacement-migration-civilizational-test",
       title: "Replacement Migration as a Civilizational Test",
       excerpt: "A reflection on war, sacrifice, and what the modern dismissal of both reveals about the state of Western civilization.",
-      author: "Leo Hass",
+      author: "Leo Haas",
       date: "Apr 13, 2026",
       readTime: "10 min read",
-      image: "images/mountain.jpeg",
+      image: "images/migration.png",
       imageAlt: "Soldiers in war",
       body: `
         <p>As I was reading "The Storm of Steel" the other day (a memoir of a WW1 soldier), I was struck by the callousness of the author. He would record his memories of whole platoons and companies being annihilated by British shellfire with a sense of detachment, as if there was nothing tragic about two hundred men being ground into the bloodstained mud. Was he stupid? Was he brainwashed? Those are the only two possibilities that the modern view of war — whose central tenet is that "War Is Hell" — can allow. Either the soldier is too stupid to realize he is being sent to die in an "old man's war", as the old saying goes, or he has been "brainwashed" into thinking <em>it is sweet and proper to die for one's country</em>.</p>
