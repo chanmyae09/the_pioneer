@@ -14,9 +14,9 @@ const SITE = {
       slug: "replacement-migration-civilizational-test",
       title: "Replacement Migration as a Civilizational Test",
       excerpt: "A reflection on war, sacrifice, and what the modern dismissal of both reveals about the state of Western civilization.",
-      author: "The Pioneer",
-      date: "Apr 10, 2026",
-      readTime: "5 min read",
+      author: "Leo Hass",
+      date: "Apr 13, 2026",
+      readTime: "10 min read",
       image: "images/mountain.jpeg",
       imageAlt: "Soldiers in war",
       body: `
