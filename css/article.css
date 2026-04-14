@@ -1,0 +1,168 @@
+/* =========================================
+   THE PIONEER — Article page styles
+   ========================================= */
+
+.article-main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 60px 28px 120px;
+}
+
+/* Back link */
+.article-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 48px;
+  transition: color var(--transition);
+}
+.article-back:hover { color: var(--text-primary); }
+.article-back svg { transition: transform var(--transition); }
+.article-back:hover svg { transform: translateX(-3px); }
+
+/* Header */
+.article-header { margin-bottom: 40px; }
+
+.article-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text-primary);
+  margin-bottom: 20px;
+}
+
+.article-excerpt {
+  font-family: 'Source Serif 4', serif;
+  font-size: 1.15rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+  border-left: 3px solid var(--accent);
+  padding-left: 20px;
+  margin-bottom: 28px;
+}
+
+.article-meta-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--border);
+}
+.article-meta-bar .author { color: var(--text-secondary); font-weight: 500; }
+.article-meta-bar .sep { opacity: 0.3; }
+
+/* Hero image */
+.article-hero-img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 52px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.article-hero-img.loaded { opacity: 1; }
+
+/* Body content */
+.article-body {
+  font-family: 'Source Serif 4', serif;
+  font-size: 1.08rem;
+  line-height: 1.85;
+  color: var(--text-secondary);
+}
+
+.article-body p {
+  margin-bottom: 1.6em;
+}
+
+.article-body h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 2.2em 0 0.8em;
+  line-height: 1.3;
+}
+
+.article-body h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 1.8em 0 0.6em;
+}
+
+.article-body blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 4px 0 4px 24px;
+  margin: 2em 0;
+  color: var(--text-primary);
+  font-style: italic;
+  font-size: 1.15rem;
+}
+
+/* End rule */
+.article-end {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 64px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.article-end::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+/* Not found */
+.not-found {
+  text-align: center;
+  padding: 100px 20px;
+}
+.not-found h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+.not-found p {
+  color: var(--text-muted);
+  margin-bottom: 28px;
+}
+.not-found a {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 2px;
+  transition: color var(--transition);
+}
+.not-found a:hover { color: var(--text-primary); }
+
+/* Responsive */
+@media (max-width: 600px) {
+  .article-main { padding: 40px 18px 80px; }
+  .article-title { font-size: 1.9rem; }
+  .article-excerpt { font-size: 1rem; }
+  .article-body { font-size: 1rem; }
+}
