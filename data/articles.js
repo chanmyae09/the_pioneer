@@ -11,6 +11,27 @@ const SITE = {
 
   articles: [
     {
+      slug: "replacement-migration-civilizational-test",
+      title: "Replacement Migration as a Civilizational Test",
+      excerpt: "A reflection on war, sacrifice, and what the modern dismissal of both reveals about the state of Western civilization.",
+      author: "The Pioneer",
+      date: "Apr 10, 2026",
+      readTime: "5 min read",
+      image: "images/mountain.jpeg",
+      imageAlt: "Soldiers in war",
+      body: `
+        <p>As I was reading "The Storm of Steel" the other day (a memoir of a WW1 soldier), I was struck by the callousness of the author. He would record his memories of whole platoons and companies being annihilated by British shellfire with a sense of detachment, as if there was nothing tragic about two hundred men being ground into the bloodstained mud. Was he stupid? Was he brainwashed? Those are the only two possibilities that the modern view of war — whose central tenet is that "War Is Hell" — can allow. Either the soldier is too stupid to realize he is being sent to die in an "old man's war", as the old saying goes, or he has been "brainwashed" into thinking <em>it is sweet and proper to die for one's country</em>.</p>
+
+        <p>It is a mark of a decadent society that it disowns the foundational means which brought or safeguarded that prosperity in the first place. War is an inevitable part of human societies and of nations. But such is the arrogance, the moral grandstanding of present-ism that it is determined to do away with every distasteful thing from the past. But there is a problem. The progressive can abolish war anytime he likes. Yet he will find it a harder prospect to protect his people without it.</p>
+
+        <p>The original intent of sacrificing lives over <em>there</em> is so that ordinary citizens were not sacrificed <em>here</em>. That is the point of having armed forces. While blank slate mythology's consequences were delayed so long as all western nations held white supermajorities, as enforced diversity spreads throughout our nations, we find cracks showing. When a German restrains a knife-swinging immigrant, and the police officer tackles the German to the ground and handcuffs him — only to be stabbed himself by the immigrant — the citizens of the nation begin to wonder, <em>are we looking at the application of violence in the right way? Was there a time before now we could have applied violence to stop this before it happened?</em></p>
+
+        <p>For war and the sacrifice of lives is, after all, applied violence to achieve a specific goal. If the English had a say in their own country, they might once have said their military is superfluous, an unnecessary expenditure. But that was before. Now it has become a question of "to be or not to be" for the English people; and this has brought things into greater clarity. When one is in a comfortable armchair with some green tea and one of those scented vaporizers, things like sacrificing young lives to protect the nation seem like giddy nationalist folly. But when one sees a foreigner leering down with impunity from the eighth floor of an apartment building, where he had retreated to with hostages after stabbing some others, one begins to understand why men like Lieutenant Ernst Jünger wrote about the deaths of hundreds of young men not with tears or remorse, but instead that "they may have died, but they did not die in vain." Soldiers die in war to shield their families from that fate. Their deaths are only pointless if you ignore the alternative.</p>
+
+        <p>This is what we once knew. Replacement migration is giving us a slow and painful lesson. It is a test of our strength and our commitment to protecting our people on a civilizational scale. I only hope that we can pass.</p>
+      `,
+    },
+    {
       slug: "quiet-revolution-city-streets",
       title: "The Quiet Revolution Happening in Your City's Streets",
       excerpt: "Across the world, a slow but unstoppable shift is underway — one sidewalk, one bike lane, one reclaimed parking lot at a time. Here's why it matters more than you think.",
@@ -43,45 +64,6 @@ const SITE = {
         <p>Streets that prioritize people produce something different. Research consistently shows that walkable, mixed-use neighborhoods are associated with better physical health, stronger social connections, and lower rates of depression. The design of public space is, in a very real sense, a public health issue.</p>
 
         <p>None of this is easy. Every reclaimed parking space has an owner. Every removed highway has its defenders. The politics are real, and the pushback is fierce. But the direction of change, in city after city, is unmistakable. The car's century may be ending. What comes next is up to us to build.</p>
-      `,
-    },
-    {
-      slug: "year-without-smartphone",
-      title: "What Silence Sounds Like After a Year Without a Smartphone",
-      excerpt: "I gave up my phone for twelve months. This is what I found on the other side.",
-      author: "James Okafor",
-      date: "Apr 10, 2026",
-      readTime: "6 min read",
-      image: "images/mountain.jpeg",
-      imageAlt: "Person in silence",
-      body: `
-        <p>The decision wasn't dramatic. I didn't smash my phone or make a grand announcement. I just bought a cheap flip phone, transferred my SIM, and put my smartphone in a drawer. That was April 3rd, 2025. I didn't take it out again until April 3rd, 2026.</p>
-
-        <p>I want to be honest about why I did it. It wasn't because I had a particularly bad relationship with my phone — or rather, it was exactly that, but I'd convinced myself for years that everyone had the same relationship and that was just how things were now. The doom-scrolling, the reflexive checking, the inability to sit in a waiting room without reaching into my pocket. Normal, I told myself. Everyone does it.</p>
-
-        <h2>The first month</h2>
-
-        <p>The first two weeks were genuinely unpleasant. I kept reaching for a phone that wasn't there. I felt vaguely anxious in situations where I would previously have had something to look at — on public transport, in queues, in the few minutes before a meeting started. I hadn't realized how thoroughly I'd trained myself to fill every idle moment with stimulus.</p>
-
-        <p>I also had to relearn things I'd outsourced to my phone. Reading paper maps. Memorizing phone numbers. Sitting with boredom. That last one turned out to be the hardest and, eventually, the most valuable.</p>
-
-        <h2>What boredom gave back</h2>
-
-        <p>By the second month, something unexpected happened. I started noticing things. Not in a romantic, Instagram-worthy way — just ordinary noticing. The way light fell through a window. A conversation happening at the next table. My own thoughts, which turned out to be more interesting than I'd given them credit for when I was constantly interrupting them.</p>
-
-        <p>My reading improved. Not because I had more time, exactly, but because I had more attention. I'd forgotten what it felt like to be genuinely absorbed in a book — to read for an hour without once feeling the urge to check something.</p>
-
-        <h2>What I missed</h2>
-
-        <p>I won't pretend there were no costs. Coordinating with people became harder. I missed events I would otherwise have heard about. There were moments — a medical situation, a missed connection — where not having a smartphone was genuinely stressful in ways that went beyond inconvenience.</p>
-
-        <p>I also missed some of the genuine goods of having a powerful computer in my pocket. Quick answers to real questions. Navigation in unfamiliar cities. The camera, which I still think is one of the most remarkable things about modern phones — the ability to capture a moment without preparing for it.</p>
-
-        <h2>The year after</h2>
-
-        <p>I have a smartphone again now. But my relationship with it is different. The year gave me something that's hard to articulate but easy to feel: a baseline. I know what my attention is like without constant interruption, and that knowledge makes the interruptions more visible and more optional. I still use the phone. I just use it less like a nervous habit and more like a tool.</p>
-
-        <p>The silence, it turns out, doesn't go away completely. You carry some of it with you.</p>
       `,
     },
   ],
