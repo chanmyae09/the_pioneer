@@ -9,7 +9,8 @@ const slug = params.get('slug');
 const article = SITE.articles.find(a => a.slug === slug);
 
 // --- Branding ---
-document.getElementById('siteName').textContent = SITE.name;
+const currentTheme = localStorage.getItem('pioneer-theme') || 'dark';
+document.getElementById('siteName').innerHTML = `<img src="images/logo_${currentTheme}.png" alt="${SITE.name}" class="site-logo" id="siteLogo" />`;
 
 // --- Theme ---
 const html = document.documentElement;
@@ -18,6 +19,8 @@ document.getElementById('themeToggle').addEventListener('click', () => {
   const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
   html.setAttribute('data-theme', next);
   localStorage.setItem('pioneer-theme', next);
+  const logo = document.getElementById('siteLogo');
+  if (logo) logo.src = `images/logo_${next}.png`;
 });
 
 // --- Render article or 404 ---

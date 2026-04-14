@@ -21,7 +21,13 @@ function sectionDivider(label) {
 // --- Render: Branding ---
 function renderBranding() {
   document.title = SITE.name;
-  document.getElementById('siteName').textContent = SITE.name;
+  const siteName = document.getElementById('siteName');
+  siteName.innerHTML = `<img src="images/logo_dark.png" alt="${SITE.name}" class="site-logo" id="siteLogo" />`;
+}
+
+function updateLogo(theme) {
+  const logo = document.getElementById('siteLogo');
+  if (logo) logo.src = theme === 'light' ? 'images/logo_light.png' : 'images/logo_dark.png';
 }
 
 // --- Render: Hero ---
@@ -169,6 +175,7 @@ document.getElementById('themeToggle').addEventListener('click', () => {
   const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
   html.setAttribute('data-theme', next);
   localStorage.setItem('pioneer-theme', next);
+  updateLogo(next);
 });
 
 // Search overlay
@@ -209,6 +216,7 @@ renderBranding();
 renderMain();
 renderFooter();
 loadPage(1);
+updateLogo(html.getAttribute('data-theme'));
 
 document.querySelectorAll('.reveal, .reveal-delay-0, .reveal-delay-1, .reveal-delay-2, .reveal-delay-3')
   .forEach(el => observer.observe(el));

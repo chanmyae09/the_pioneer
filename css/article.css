@@ -12,10 +12,10 @@
 .article-back {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   font-family: 'Inter', sans-serif;
-  font-size: 0.75rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--text-muted);
@@ -23,8 +23,8 @@
   transition: color var(--transition);
 }
 .article-back:hover { color: var(--text-primary); }
-.article-back svg { transition: transform var(--transition); }
-.article-back:hover svg { transform: translateX(-3px); }
+.article-back svg { width: 22px; height: 22px; transition: transform var(--transition); }
+.article-back:hover svg { transform: translateX(-4px); }
 
 /* Header */
 .article-header { margin-bottom: 40px; }
