@@ -14,7 +14,7 @@ const SITE = {
       slug: "millionaire-tax-problems",
       title: "The Many Problems with the Millionaire Tax",
       excerpt: "On March 30, 2026, Governor Bob Ferguson signed SB 6346 — the so-called millionaire tax. It may not survive contact with the Washington State Constitution.",
-      author: "The Pioneer",
+      author: "David Dunbabin",
       date: "Apr 16, 2026",
       readTime: "5 min read",
       image: "images/millionare.jpeg",
