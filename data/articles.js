@@ -11,9 +11,36 @@ const SITE = {
 
   articles: [
     {
+      slug: "american-question-21st-century",
+      title: "The American Question and the Question of the 21st Century",
+      excerpt: "If each century can be characterized with a single question, the question of the 21st century is one of identity. What does it mean to be an American — and whose country is this?",
+      author: "Leo Haas",
+      date: "Apr 19, 2026",
+      readTime: "6 min read",
+      image: "images/leo_2.jpg",
+      imageAlt: "American identity",
+      body: `
+        <p>If each century can be characterized with a single 'question', then the question of the 21st century is one of identity. When you and your people have been in a place for a thousand years and other peoples are things you read about in books, questions like <em>"what does it mean to belong to a place — and for that place to belong to me?"</em> or even <em>"what does it mean to be an American?"</em> seem laughable. To the Bantu tribesman, to the Kurd or to the Jew or the Palestinian, these things are not up for debate. They are known. The reason they are not often enshrined in law is because they are like water to a fish: their presence and foundational importance are so obvious that they do not need to be spoken aloud. Some things exist regardless whether the law recognizes them.</p>
+
+        <p>But then let two hundred, maybe two hundred and fifty years elapse; let the wariness of a frontier people borne of war and conflict fade into complacency. What now? Now, there are new arrivals in our country who do not look like you or I. Their language is foreign, their music is strange, their culture alien; when you walk into an occupied neighborhood in one of these ethnic enclaves, you would think you were across the sea in <em>their</em> country rather than in ours. But even assuming this is all nonsense and racial bigotry, present circumstances still beg the question; do you have to be white to be American? Or are we a nation of abstract ideas which anybody can adopt, rather than one of ethnicity or heritage?</p>
+
+        <p>When talking about identity and nationhood there are only two real answers, with nothing but meaningless middle ground between them. Either, what makes us identical is more important than what makes us distinct — or, what makes us distinct is more important than what makes us identical. Which you choose will determine whether you have a leg to stand on in the immigration debate.</p>
+
+        <p>If you want any restriction upon immigration whatsoever, if you want there to be any heritage or ethnic characteristic to our nation or institutions, you must admit there to be some difference between real Americans and foreigners. A category is only as good as its boundaries; if you are the same as everybody else, why restrict immigration? If a Sudanese man may recite some elementary school trivia about the Constitution and become as American as you or I, being an American has become meaningless. If anybody can become an American, why do we refer to "being American" at all? If anybody from anywhere can become an American, are these not just the United States of Humans?</p>
+
+        <p>There is also the other side, that America is a mere nation of ideas… but, then, "the other side" is missing the point. In reality, <em>both</em> sides say this. The progressives do, that is their nature; but remember that the Right also has its brown darlings. (If we fill up our government with Indians, the Left can't call us racist, right guys?) When Vivek Ramaswamy marches up to the speaker's podium and proclaims America to be a nation of ideas, nothing more, how does that make you feel? <em>"The idea of a 'Heritage American' is about as loony as anything the Woke Left has put up…"</em></p>
+
+        <p>Did you hear that!? If you admit any heritage basis to American identity, you're as bad as the Woke Left!!!!</p>
+
+        <p>MAGA and mainstream conservatism may oppose illegal immigration, but <em>legal</em> immigration — a Mexican waving a little plastic American flag from Walmart and saying "I Love America!" — well, that makes MAGA eyeballs roll back into their head with pleasure. But in reality, legal immigration is a greater threat even than illegal immigration. When three quarters of a million foreigners are being 'naturalized' per year, does it matter that they came here legally?</p>
+
+        <p>Have you ever felt a twinge of doubt as you gazed out across the foreign mass, the Mexicans chanting their slogan of "Hooray for Our Race!" as you hear university professors push the glasses up their noses and say in smug tones that race is nothing but a social construct? Have you not noticed how this sentiment of deracination only ever goes in one direction? Have you <strong>ever</strong> heard a call to "abolish Blackness" or "abolish Asianness" or even "abolish Jewishness"? They never call to abolish any of those things. They are calling to "abolish Whiteness". I ask, I implore you to consider — <strong>to what end?</strong> Since the Hart-Seller Act of 1965 our country has gone from 85% white to 56% in 2026. The same process is happening in each European and European-descended nation; each one is facing this same question of identity — hence why this is the Question of the 21st Century, not just the American Question. But as for America: look back to the second paragraph. Did you notice it? "<strong>Our</strong> country." "<strong>You</strong> or <strong>I.</strong>" How did that phrasing make you feel? Did you feel that hope, that you — not just anybody, <strong>you</strong> — would have a country all of your own? Was reading that Vivek quote the first time you have ever wondered, <em>"whose country is this?"</em></p>
+      `,
+    },
+    {
       slug: "millionaire-tax-problems",
       title: "The Many Problems with the Millionaire Tax",
-      excerpt: "On March 30, 2026, Governor Bob Ferguson signed SB 6346 — the so-called millionaire tax. It may not survive contact with the Washington State Constitution.",
+      excerpt: "A state that can't control their pending should not be able to tax more",
       author: "David Dunbabin",
       date: "Apr 16, 2026",
       readTime: "5 min read",
