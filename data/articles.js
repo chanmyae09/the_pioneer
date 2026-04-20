@@ -44,7 +44,7 @@ const SITE = {
       author: "David Dunbabin",
       date: "Apr 16, 2026",
       readTime: "5 min read",
-      image: "images/millionare.jpeg",
+      image: "images/millionare.jpg",
       imageAlt: "Washington state capitol",
       body: `
         <p>On March 30, 2026, Governor Bob Ferguson signed the 'millionaire tax' (SB 6346) which states that all income above $1,000,000 shall be taxed at 9.9%. There are a lot of problems with this — for example, Article 7 Section 1 of our State Constitution, which states:</p>
